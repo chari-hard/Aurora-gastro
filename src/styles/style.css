@@ -29,3 +29,45 @@ header {
     font-size: var(--font-button-size);
     font-family: var(--font-title);
 }
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 60px 0px;
+}
+
+.content-main {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+h1 {
+    color: var(--color-secundary-black);
+    font-size: var(--font-headline-h1-size);
+    font-family: var(--font-title);
+    width: 562px;
+}
+
+h1 span {
+    color: var(--color-primary-orange);
+}
+
+.content-main p {
+    color: var(--color-secundary-gray);
+    font-size: var(--font-body-size);
+    font-family: var(--font-body);
+    width: 544px;
+    line-height: 30px;
+}
+
+.container-btn-main {
+    display: flex;
+    gap: 20px;
+}
+
+
+

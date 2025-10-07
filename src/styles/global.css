@@ -9,7 +9,7 @@
     --color-primary-orange: #EA6D27;
     --color-secundary-white:#FFFFFF ;
     --color-secundary-black:#101821 ;
-    --color-secundary-l-gray:#5C6574 ;
+    --color-secundary-gray:#5C6574 ;
     --color-alert-green:#004E05 ;
     --color-alert-red:#770000 ;
 
@@ -22,4 +22,20 @@
 
     --font-title: "David Libre", serif;
     --font-body: "Inter", sans-serif;
+}
+
+.btn-primary, .btn-secondary {
+    color: var(--color-secundary-white);
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 15px 3px;
+    font-family: var(--font-title);
+}
+
+.btn-primary {
+    background-color: var(--color-primary-orange);
+}
+
+.btn-secondary {
+    background-color: var(--color-secundary-black);
 }
