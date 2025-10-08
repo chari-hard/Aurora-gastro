@@ -52,7 +52,7 @@ h1 {
     width: 562px;
 }
 
-h1 span {
+.highlighted-word {
     color: var(--color-primary-orange);
 }
 
@@ -69,5 +69,42 @@ h1 span {
     gap: 20px;
 }
 
+.section-differences {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: var(--color-primary-orange-10);
+    padding: 60px 0;
+    gap: 40px;
+}
 
 
+.differences-cards-container {
+    display: flex;
+    gap: 70px;
+}
+
+.differences-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:10px ;
+    border: solid 1px var(--color-secundary-gray);
+    padding: 20px;
+    gap: 10px;
+    text-align: center;
+}
+
+.differences-card h3 {
+    width: 181px;
+    height: 56px;
+}
+
+.differences-card p {
+    font-size: var(--font-body);
+    color: var(--color-secundary-gray);
+    font-family: var(--font-body);
+    width: 227px;
+    height: 60px;
+    line-height: 30px;
+}
