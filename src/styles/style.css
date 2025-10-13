@@ -327,3 +327,15 @@ form button {
     align-self: flex-start;
     cursor: pointer;
 }
+
+.section-maps {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+    background-color: var(--color-primary-orange-10);
+}
+
+.section-maps iframe {
+    width: 90vw;
+    height: 60vh;
+}
